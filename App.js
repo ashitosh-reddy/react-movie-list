@@ -104,8 +104,8 @@ export default function App() {
 
 
 function Movie({ name, poster, rating, summary }) {
-  const style1 = {color: "red" };
-  const style2 = {color: "green"};
+  const style1 = {color: "green" };
+  const style2 = {color: "red"};
   const r=rating 
   console.log(r)
   return (
